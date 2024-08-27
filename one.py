@@ -53,7 +53,4 @@ def process_and_write_large_excel(file1, file2, output_file, chunk_size=100000):
     wb_out.save(output_file)
 
 # Example usage with verified paths
-file1 = r'C:\Users\nimeth\Documents\GitHub\Excel read\large_file1.xlsx'
-file2 = r'C:\Users\nimeth\Documents\GitHub\Excel read\large_file2.xlsx'
-output_file = r'C:\Users\nimeth\Documents\GitHub\Excel read\merged_unique_data.xlsx'
-process_and_write_large_excel(file1, file2, output_file)
+
